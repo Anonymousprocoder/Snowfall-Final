@@ -99,7 +99,7 @@ function keyPressed(){
 }
 
 async function getBackgroundImg(){
-    var response = await fetch("http://worldtimeapi.org/api/America/New_York");
+    var response = await fetch("http://worldtimeapi.org/api/Asia/Kolkata");
     var responseJSON = await response.json();
 
     var datetime = responseJSON.datetime;
